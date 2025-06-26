@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML & CSS Practice Assignment</title>
+  <link rel="stylesheet" href="demo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">DEV hUB</h1>
+    <p class="site-subtitle">Master HTML & CSS Fundamentals</p>
+  </header>
+
+ 
+  <nav class="site-nav">
+    <ul class="nav-links">
+      <li><a href="#html-section">HTML Basics</a></li>
+      <li><a href="#css-section">CSS Styling</a></li>
+      <li><a href="#media-section">Media Elements</a></li>
+      <li><a href="#data-section">Data Display</a></li>
+    </ul>
+  </nav>
+
+    <main class="content">
+   <section id="html-section" class="content-section">
+      <h2 class="section-title">HTML Fundamentals</h2>
+      <div class="section-box">
+        <h1>Text Formatting Examples</h1>
+        <p>This is a <strong>bold text</strong> and this is <em>italic text</em>.</p>
+        <p>Here's some <mark>highlighted text</mark> and <code>inline code</code>.</p>
+        <blockquote class="highlight-quote">"The best way to learn HTML and CSS is through hands-on practice and building real projects in the day to day life ."</blockquote>
+      </div>
+    </section>
+
+    <section id="css-section" class="content-section">
+      <h2 class="section-title">CSS Styling Practice</h2>
+      <div class="style-examples">
+        <div class="box-model">
+          <h4>Box Model Demonstration</h4>
+          <p>This element demonstrates margin, padding, border, and content areas.</p>
+        </div>
+        <div class="position-example">
+          <div class="absolute-box">Positioned element</div>
+          <div class="relative-box">
+            <div class="inner-absolute">Absolute Element</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="media-section" class="content-section">
+      <h2 class="section-title">Media Elements</h2>
+      <div class="media-gallery">
+        <div class="media-item">
+          <h1><em>Images</em></h1>
+          <div class="image-list">
+            <img src="detective_1320570.png" alt="Detective" class="image-style" />
+            <img src="favicon.png" alt="Favicon" class="image-style" />
+          </div>
+        </div>
+        <div class="media-item">
+          <h3>Video Content</h3>
+          <video controls class="video-style">
+            <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="media-item">
+          <h3>Audio Content</h3>
+          <audio controls class="audio-style">
+            <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav" />
+            Your browser does not support the audio tag.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+  
+    <section id="data-section" class="content-section">
+      <h2 class="section-title">Data Display</h2>
+      <div class="list-display">
+        <div class="list-box">
+          <h3>Unordered List</h3>
+          <ul class="list-custom">
+            <li>HTML Structure</li>
+            <li>CSS Styling</li>
+            <li>Responsive Design</li>
+            <li>Web Accessibility</li>
+          </ul>
+        </div>
+        <div class="list-box">
+          <h3>Ordered List</h3>
+          <ol class="list-custom">
+            <li>Learn HTML basics</li>
+            <li>Master CSS properties</li>
+            <li>Practice with projects</li>
+            <li>Build responsive layouts</li>
+          </ol>
+        </div>
+        <div class="list-box">
+          <h3>Definition List</h3>
+          <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JavaScript</dt>
+            <dd>Scripting language for the web</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="table-box">
+        <h3>Student Progress</h3>
+        <table class="table-style">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>HTML</th>
+              <th>CSS</th>
+              <th>Total</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Alice</td><td>85</td><td>92</td><td>177</td><td>A</td></tr>
+            <tr><td>Bob</td><td>78</td><td>88</td><td>166</td><td>B+</td></tr>
+            <tr><td>Carol</td><td>95</td><td>89</td><td>184</td><td>A+</td></tr>
+            <tr><td>David</td><td>82</td><td>85</td><td>167</td><td>B+</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td><strong>Average</strong></td><td>85</td><td>88.5</td><td>173.5</td><td>A-</td></tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+   
+    <section class="content-section">
+      <h2 class="section-title">Interactive Elements</h2>
+      <div class="interactive-area">
+        <div class="hover-example">
+          <h3>Hover Effects</h3>
+          <button class="hover-button">Hover Me!</button>
+          <div class="hover-box">
+            <h4>Hover Card</h4>
+            <p>This card changes on hover</p>
+          </div>
+        </div>
+        <div class="responsive-example">
+          <h3>Responsive Design</h3>
+          <div class="responsive-grid">
+            <div class="grid-cell">Item 1</div>
+            <div class="grid-cell">Item 2</div>
+            <div class="grid-cell">Item 3</div>
+            <div class="grid-cell">Item 4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <p>&copy; 2024 Web Development Learning Hub. All rights reserved.</p>
+    <p>Practice makes perfect! Keep coding and learning.</p>
+  </footer>
+
+</body>
+</html>

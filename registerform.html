@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+</head>
+<body>
+    <form action="/action" >
+    <h3>PQ-9</h3>
+    <h1>Registration Form</h1>
+    <input type="text" placeholder="First name" name="fname"/>
+    <input type="text" placeholder="Last name" name="lname"/>
+    <div>
+        <label for="gender">Please select gender</label>
+    <select name="gender" id="gender">
+        <option value="none">select</option>
+        <option value="m">male</option>
+        <option value="f">female</option>
+        <option value="o">others</option>
+    </select>
+</div>
+<br>
+<div>
+    Do you agree all terms and service?
+    <input type="checkbox" id="terms" name="terms">
+    <label for="terms">Yes,i agree</label>
+    <br>
+    <button>Register</button>
+</div>
+    </form>
+<hr>
+<table border="black">
+    <caption>student informtion</caption>
+        <tr>
+            <th rowspan="6">info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">address</th>
+        </tr>
+        <tr>
+            <th>city</th>
+            <th>house</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+</table>
+        <hr>
+        <h1>student form</h1>
+        <form action="/server">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex" id="m" value="m">
+            <label for="m">Male</label>
+            <input type="radio" name="sex" id="f" value="f">
+            <label for="f">Female</label>
+            <br>
+            <div>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="none">select</option>
+                    <option value="india">India</option>
+                    <option value="america">America</option>
+                    <option value="england">England</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="mes">Message:</label> <br>
+                <textarea name="mes" id="mes" cols="30" rows="4"></textarea>
+            </div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="subscribed"/>
+            <label for="subscribe">Subscribe?</label>
+            <br>
+            <button>submit</button>
+        </form>
+</body>
+</html>

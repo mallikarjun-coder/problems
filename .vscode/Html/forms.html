@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singn-up</title>
+</head>
+<body>
+    <form action="/action.php">
+    <h1>Registration Form</h1>
+    Name: <input type="text" placeholder="Enter your Name" > <br>
+    Email: <input type="email" placeholder="Enter your Email" ><br>
+    New Password: <input type="password" placeholder="Enter password"><br>
+    Confirm Password: <input type="password" placeholder="confirm password"><br>
+    Date of Birth: <input type="date"><br>
+    Gender:
+    <label for="M">
+    <input type="radio" name="Gender" id="M">male</label>
+    <label for="F">
+    <input type="radio" name="Gender" id="F">Female</label><br>
+    Country:
+    <select name="Country" id="102">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="Europe">Europe</option>    
+    </select><br>
+    Profile Image:
+    <input type="file" accept="image/*"><br>
+    Do you agree all terms and service?
+    <input type="checkbox" id="terms" name="terms">
+    <label for="terms">Yes,i agree</label>
+    <br>
+    <button type="submit">Register</button>
+
+
+    </form>
+</body>
+</html>
